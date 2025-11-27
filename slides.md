@@ -254,46 +254,37 @@ class: px-14 py-10 text-slate-50
 </div>
 
 ---
+class: px-14 py-10 text-slate-50
+---
 
-# Components
+# 资质认证与合规保障
 
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
+<div class="grid grid-cols-3 gap-4 text-sm leading-relaxed">
+  <div class="glass-card rounded-xl border-white/40 px-4 pb-2 space-y-2">
+    <p class="text-base font-semibold text-white"><carbon:security class="inline-block mr-1 align-middle" />工商合规</p>
+    <ul class="list-disc pl-2 space-y-1">
+      <li>已依法取得营业执照，经营范围覆盖电池制造、新材料技术研发、光伏设备、家用电器制造及进出口等业务</li>
+    </ul>
+  </div>
+  <div class="glass-card rounded-xl border-white/40 px-4 pb-2 space-y-2">
+    <p class="text-base font-semibold text-white"><carbon:badge class="inline-block mr-1 align-middle" />产品与体系认证</p>
+    <ul class="list-disc pl-2 space-y-1">
+      <li>已规划并落地 <a href="https://www.iso.org/" target="_blank">ISO</a> 质量 / 环境管理体系</li>
+      <li>产品安全与材料合规：<a href="https://www.osha.gov/hazard-communication/safety-data-sheets" target="_blank">MSDS</a>、<a href="https://www.ul.com/" target="_blank">UL</a>、<a href="https://www.cnca.gov.cn/" target="_blank">3C</a>、<a href="https://www.iec.ch/" target="_blank">IEC</a>、<a href="https://unece.org/transport/dangerous-goods" target="_blank">UN38.3</a> 等核心认证齐备</li>
+      <li>可按客户与目标市场要求补充其他认证与测试</li>
+    </ul>
+  </div>
+  <div class="glass-card rounded-xl border-white/40 px-4 pb-2 space-y-2">
+    <p class="text-base font-semibold text-white"><carbon:earth class="inline-block mr-1 align-middle" />进出口能力</p>
+    <ul class="list-disc pl-2 space-y-1">
+      <li>具备货物进出口与技术进出口资质，可支持海外客户合作</li>
+    </ul>
+  </div>
+  <div class="glass-card rounded-xl border-white/40 px-4 pb-2 space-y-2 col-span-3">
+    <p class="text-base font-semibold text-emerald-50"><carbon:flag class="inline-block mr-1 align-middle" />核心结论</p>
+    <p class="leading-relaxed">公司高度重视合规经营与产品认证工作，能够根据客户目标市场要求，匹配相应的测试认证与资料支持。</p>
+  </div>
 </div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
 
 ---
 class: px-20
