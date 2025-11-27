@@ -144,7 +144,7 @@ class: px-14 py-10 text-slate-50
 ## 一张图说明业务版块（四宫格）
 
 <div class="grid grid-cols-2 gap-5 mt-6 max-w-4xl mx-auto">
-  <div class="rounded-2xl glass-card ring-1 ring-sky-200/70 border-white/50 p-4">
+  <div class="rounded-2xl glass-card border-white/40 p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold text-white">电池电芯业务</p>
       <span class="text-xs glass-chip text-sky-900 px-2 py-1 rounded-full border border-white/30 shadow-sm">核心</span>
@@ -154,7 +154,7 @@ class: px-14 py-10 text-slate-50
       <li>面向多种容量与规格定制</li>
     </ul>
   </div>
-  <div class="rounded-2xl glass-card ring-1 ring-indigo-200/70 border-white/50 p-4">
+  <div class="rounded-2xl glass-card border-white/40 p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold text-white">储能产品</p>
       <span class="text-xs glass-chip text-indigo-900 px-2 py-1 rounded-full border border-white/30 shadow-sm">储发一体</span>
@@ -164,7 +164,7 @@ class: px-14 py-10 text-slate-50
       <li>结合光伏设备与元器件，实现储发一体解决方案</li>
     </ul>
   </div>
-  <div class="rounded-2xl glass-card ring-1 ring-amber-200/70 border-white/50 p-4">
+  <div class="rounded-2xl glass-card border-white/40 p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold text-white">启停电源</p>
       <span class="text-xs glass-chip text-amber-900 px-2 py-1 rounded-full border border-white/30 shadow-sm">高倍率</span>
@@ -174,7 +174,7 @@ class: px-14 py-10 text-slate-50
       <li>高倍率放电、可靠启停性能</li>
     </ul>
   </div>
-  <div class="rounded-2xl glass-card ring-1 ring-emerald-200/70 border-white/50 p-4">
+  <div class="rounded-2xl glass-card border-white/40 p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold text-white">移动电源成品</p>
       <span class="text-xs glass-chip text-emerald-900 px-2 py-1 rounded-full border border-white/30 shadow-sm">消费终端</span>
