@@ -125,43 +125,43 @@ class: px-14 py-10
 
 ## 一张图说明业务版块（四宫格）
 
-<div class="grid grid-cols-2 gap-6 mt-6 text-slate-900">
-  <div class="rounded-2xl bg-gradient-to-br from-[#e0ecff] to-white ring-1 ring-sky-200 shadow-md p-5">
+<div class="grid grid-cols-2 gap-5 mt-6 text-slate-900 max-w-4xl mx-auto">
+  <div class="rounded-2xl bg-gradient-to-br from-[#e0ecff] to-white ring-1 ring-sky-200 shadow-md p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold">电池电芯业务</p>
       <span class="text-xs text-sky-800 bg-white/90 px-2 py-1 rounded-full border border-sky-200 shadow-sm">核心</span>
     </div>
-    <ul class="list-disc pl-5 mt-3 space-y-2 text-sm leading-relaxed">
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5 text-sm leading-relaxed">
       <li>电池制造、电池零配件生产与销售</li>
       <li>面向多种容量与规格定制</li>
     </ul>
   </div>
-  <div class="rounded-2xl bg-gradient-to-br from-[#e8edff] to-white ring-1 ring-indigo-200 shadow-md p-5">
+  <div class="rounded-2xl bg-gradient-to-br from-[#e8edff] to-white ring-1 ring-indigo-200 shadow-md p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold">储能产品</p>
       <span class="text-xs text-indigo-800 bg-white/90 px-2 py-1 rounded-full border border-indigo-200 shadow-sm">储发一体</span>
     </div>
-    <ul class="list-disc pl-5 mt-3 space-y-2 text-sm leading-relaxed">
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5 text-sm leading-relaxed">
       <li>便携储能、电源模组</li>
       <li>结合光伏设备与元器件，实现储发一体解决方案</li>
     </ul>
   </div>
-  <div class="rounded-2xl bg-gradient-to-br from-[#ffeeda] to-white ring-1 ring-amber-200 shadow-md p-5">
+  <div class="rounded-2xl bg-gradient-to-br from-[#ffeeda] to-white ring-1 ring-amber-200 shadow-md p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold">启停电源</p>
       <span class="text-xs text-amber-800 bg-white/90 px-2 py-1 rounded-full border border-amber-200 shadow-sm">高倍率</span>
     </div>
-    <ul class="list-disc pl-5 mt-3 space-y-2 text-sm leading-relaxed">
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5 text-sm leading-relaxed">
       <li>面向汽车/设备启停场景的电源产品</li>
       <li>高倍率放电、可靠启停性能</li>
     </ul>
   </div>
-  <div class="rounded-2xl bg-gradient-to-br from-[#e5f7ed] to-white ring-1 ring-emerald-200 shadow-md p-5">
+  <div class="rounded-2xl bg-gradient-to-br from-[#e5f7ed] to-white ring-1 ring-emerald-200 shadow-md p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold">移动电源成品</p>
       <span class="text-xs text-emerald-800 bg-white/90 px-2 py-1 rounded-full border border-emerald-200 shadow-sm">消费终端</span>
     </div>
-    <ul class="list-disc pl-5 mt-3 space-y-2 text-sm leading-relaxed">
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5 text-sm leading-relaxed">
       <li>半固态电池磁吸移动电源</li>
       <li>快充、安全、轻薄，服务消费电子终端</li>
     </ul>
