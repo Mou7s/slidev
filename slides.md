@@ -197,21 +197,21 @@ class: px-14 py-10 text-slate-50
 # 核心技术与研发实力
 
 <div class="grid grid-cols-3 gap-5 mt-6 text-sm leading-relaxed">
-  <div class="rounded-xl glass-card border-white/40 ring-1 ring-sky-200/70 p-4">
+  <div class="rounded-xl glass-card border-white/40 p-4">
     <p class="text-base font-semibold text-sky-50">电池与新材料技术</p>
     <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
       <li>以电池制造为起点，持续在电解质、极片材料、结构设计等方面优化升级</li>
       <li>关注半固态电池方向，提升安全性与能量密度</li>
     </ul>
   </div>
-  <div class="rounded-xl glass-card border-white/40 ring-1 ring-indigo-200/70 p-4">
+  <div class="rounded-xl glass-card border-white/40 p-4">
     <p class="text-base font-semibold text-indigo-50">储能与电源应用研发</p>
     <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
       <li>面向储能、启停及移动电源场景进行系统设计</li>
       <li>结合电力电子与 BMS（电池管理）技术，提升系统稳定性与使用寿命</li>
     </ul>
   </div>
-  <div class="rounded-xl glass-card border-white/40 ring-1 ring-emerald-200/70 p-4">
+  <div class="rounded-xl glass-card border-white/40 p-4">
     <p class="text-base font-semibold text-emerald-50">研发与技术服务能力</p>
     <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
       <li>覆盖技术开发、技术咨询、技术转让及技术推广</li>
@@ -231,7 +231,7 @@ class: px-14 py-10 text-slate-50
 # 制造能力与质量管理
 
 <div class="grid grid-cols-2 gap-6 mt-6 text-sm leading-relaxed">
-  <div class="rounded-xl glass-card ring-1 ring-white/40 border-white/40 p-5">
+  <div class="rounded-xl glass-card border-white/40 p-5">
     <p class="text-base font-semibold text-white">制造能力</p>
     <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
       <li>完成电池、电池零配件、电子元器件及机电组件等多类产品的制造布局</li>
@@ -239,7 +239,7 @@ class: px-14 py-10 text-slate-50
       <li>支持从小批试产到大批量量产的柔性生产模式</li>
     </ul>
   </div>
-  <div class="rounded-xl glass-card ring-1 ring-white/40 border-white/40 p-5">
+  <div class="rounded-xl glass-card border-white/40 p-5">
     <p class="text-base font-semibold text-white">质量管理与品控</p>
     <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
       <li>依据行业标准建立从来料检验 → 制程控制 → 成品出货的全流程质量管理体系</li>
