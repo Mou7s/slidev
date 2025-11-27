@@ -173,132 +173,67 @@ class: px-14 py-10
 </div>
 
 ---
-layout: image-right
-image: https://cover.sli.dev
+class: px-14 py-10 text-slate-900
 ---
 
-# Code
+# 核心技术与研发实力
 
-Use code snippets and get the highlighting directly, and even types hover!
+<div class="grid grid-cols-3 gap-5 mt-6 text-sm leading-relaxed text-slate-900">
+  <div class="rounded-xl bg-sky-50/50 ring-1 ring-sky-200 shadow p-4 backdrop-blur-sm">
+    <p class="text-base font-semibold text-sky-900">电池与新材料技术</p>
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
+      <li>以电池制造为起点，持续在电解质、极片材料、结构设计等方面优化升级</li>
+      <li>关注半固态电池方向，提升安全性与能量密度</li>
+    </ul>
+  </div>
+  <div class="rounded-xl bg-indigo-50/50 ring-1 ring-indigo-200 shadow p-4 backdrop-blur-sm">
+    <p class="text-base font-semibold text-indigo-900">储能与电源应用研发</p>
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
+      <li>面向储能、启停及移动电源场景进行系统设计</li>
+      <li>结合电力电子与 BMS（电池管理）技术，提升系统稳定性与使用寿命</li>
+    </ul>
+  </div>
+  <div class="rounded-xl bg-emerald-50/50 ring-1 ring-emerald-200 shadow p-4 backdrop-blur-sm">
+    <p class="text-base font-semibold text-emerald-900">研发与技术服务能力</p>
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
+      <li>覆盖技术开发、技术咨询、技术转让及技术推广</li>
+      <li>可根据客户需求提供定制化设计与联合开发服务（ODM / OEM）</li>
+    </ul>
+  </div>
+</div>
 
-```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-import { computed, ref } from "vue";
-
-const count = ref(0);
-const doubled = computed(() => count.value * 2);
-
-doubled.value = 2;
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
+<div class="mt-8 text-sm leading-relaxed bg-gray-50/50   rounded-xl p-4 text-slate-900">
+ 一句话总结：从“单一电芯”到“系统级电源解决方案”，山泽能源正在通过持续研发，将技术优势转化为客户的产品竞争力。
+</div>
 
 ---
-level: 2
+class: px-14 py-10 text-slate-900
 ---
 
-# Shiki Magic Move
+# 制造能力与质量管理
 
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
+<div class="grid grid-cols-2 gap-6 mt-6 text-sm leading-relaxed">
+  <div class="rounded-xl bg-white ring-1 ring-gray-200 shadow p-5">
+    <p class="text-base font-semibold text-slate-900">制造能力</p>
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
+      <li>完成电池、电池零配件、电子元器件及机电组件等多类产品的制造布局</li>
+      <li>拥有模具制造、电力电子元器件、家用电器等相关生产能力</li>
+      <li>支持从小批试产到大批量量产的柔性生产模式</li>
+    </ul>
+  </div>
+  <div class="rounded-xl bg-white ring-1 ring-gray-200 shadow p-5">
+    <p class="text-base font-semibold text-slate-900">质量管理与品控</p>
+    <ul class="list-disc pl-5 mt-2.5 space-y-1.5">
+      <li>依据行业标准建立从来料检验 → 制程控制 → 成品出货的全流程质量管理体系</li>
+      <li>对电池相关产品进行安全性、可靠性及寿命测试</li>
+      <li>针对储能与启停产品，重点控制高倍率、安全保护与环境适应性指标</li>
+    </ul>
+  </div>
+</div>
 
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: "John Doe",
-  books: [
-    "Vue 2 - Advanced Guide",
-    "Vue 3 - Basic Guide",
-    "Vue 4 - The Mystery",
-  ],
-});
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: "John Doe",
-        books: [
-          "Vue 2 - Advanced Guide",
-          "Vue 3 - Basic Guide",
-          "Vue 4 - The Mystery",
-        ],
-      },
-    };
-  },
-};
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: "John Doe",
-      books: [
-        "Vue 2 - Advanced Guide",
-        "Vue 3 - Basic Guide",
-        "Vue 4 - The Mystery",
-      ],
-    },
-  }),
-};
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: "John Doe",
-  books: [
-    "Vue 2 - Advanced Guide",
-    "Vue 3 - Basic Guide",
-    "Vue 4 - The Mystery",
-  ],
-};
-</script>
-```
-````
+<div class="mt-8 text-sm leading-relaxed bg-gray-50 border border-gray-100 rounded-xl p-4">
+  <strong>一句增强信任的话：</strong>山泽能源坚持“安全可靠是电源产品的第一标准”，通过严格的品质控制，为客户提供稳定、一致的交付能力。
+</div>
 
 ---
 
