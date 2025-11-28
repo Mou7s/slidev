@@ -77,3 +77,13 @@ body {
   backdrop-filter: blur(14px) saturate(120%);
   -webkit-backdrop-filter: blur(14px) saturate(120%);
 }
+
+/* Slidev Toc 两列展示 */
+.toc-columns-2 > ol {
+  column-count: 2;
+  column-gap: 2.5rem;
+}
+
+.toc-columns-2 li {
+  break-inside: avoid;
+}

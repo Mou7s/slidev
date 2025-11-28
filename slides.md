@@ -58,23 +58,12 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
-layout: two-cols
-layoutClass: gap-16
----
 
 # 目录
 
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
+<div class="glass-card rounded-3xl border-white/50 p-8 shadow-2xl w-full max-w-5xl backdrop-blur-xl">
+  <Toc class="toc-columns-2 text-base leading-relaxed space-y-2" minDepth="1" maxDepth="2" />
+</div>
 
 ---
 class: text-left px-14 text-slate-50
