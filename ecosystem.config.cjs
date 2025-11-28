@@ -1,21 +1,15 @@
 module.exports = {
   apps: [
     {
-      name: 'slidev',
-      script: 'node',
-      args: './node_modules/@slidev/cli/bin/slidev.js dev --host 0.0.0.0 --port 3030 --open false',
+      name: 'slidev-preview',
       cwd: __dirname,
+      script: 'pnpm',
+      args: 'exec slidev preview --host 0.0.0.0 --port 4173',
+      interpreter: '/bin/bash',
       env: {
-        NODE_ENV: 'development',
+        NODE_ENV: 'production'
       },
-      env_production: {
-        NODE_ENV: 'production',
-      },
-      watch: false,
-      error_file: 'logs/slidev-err.log',
-      out_file: 'logs/slidev-out.log',
-      merge_logs: true,
-      max_memory_restart: '1G',
-    },
-  ],
+      watch: false
+    }
+  ]
 };
