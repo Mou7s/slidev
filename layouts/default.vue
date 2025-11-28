@@ -44,9 +44,32 @@ const style = computed(() => handleBackground(backgroundUrl.value));
     :class="props.layoutClass"
     :style="style"
   >
+    <div class="background-dim" aria-hidden="true"></div>
     <!-- 内容插槽，允许自定义类 -->
-    <div :class="props.class">
+    <div class="content" :class="props.class">
       <slot />
     </div>
   </div>
 </template>
+
+<style scoped>
+.slidev-layout.default {
+  position: relative;
+}
+
+.background-dim {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0, 0, 0, 0.4), transparent 35%),
+    radial-gradient(circle at 80% 15%, rgba(0, 0, 0, 0.45), transparent 40%),
+    linear-gradient(135deg, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.6));
+  z-index: 0;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+</style>

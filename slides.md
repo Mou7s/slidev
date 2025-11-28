@@ -69,17 +69,41 @@ The last comment block of each slide will be treated as slide notes. It will be 
 class: text-left px-14 text-slate-50
 ---
 
-# 公司概况
+<h1 class="flex items-center gap-3 text-white mb-4">
+  <span class="i-carbon-enterprise text-3xl text-sky-200 align-middle"></span>
+  <span>公司概况</span>
+</h1>
 
 <div class="glass-card rounded-2xl px-4 py-2 border-white/40 shadow-xl flex flex-col">
-  <ul class="list-disc pl-5 space-y-1">
-    <li><strong>公司名称</strong>：东莞山泽新能源科技有限公司</li>
-    <li><strong>品牌/简称</strong>：山泽能源</li>
-    <li><strong>成立时间</strong>：2022 年 4 月 18 日</li>
-    <li><strong>注册资本</strong>：1,000 万元人民币</li>
-    <li><strong>企业性质</strong>：有限责任公司（自然人投资或控股）</li>
-    <li><strong>所在地</strong>：广东省东莞市长安镇</li>
-    <li><strong>所属行业</strong>：新能源及电子制造（电池与储能相关应用）</li>
+  <ul class="space-y-1">
+    <li class="flex items-center gap-2">
+      <span class="i-carbon-building text-sky-200"></span>
+      <span><strong>公司名称</strong>：东莞山泽新能源科技有限公司</span>
+    </li>
+    <li class="flex items-center gap-2">
+      <span class="i-carbon-badge text-amber-200"></span>
+      <span><strong>品牌/简称</strong>：山泽能源</span>
+    </li>
+    <li class="flex items-center gap-2">
+      <span class="i-carbon-calendar text-emerald-200"></span>
+      <span><strong>成立时间</strong>：2022 年 4 月 18 日</span>
+    </li>
+    <li class="flex items-center gap-2">
+      <span class="i-carbon-currency-yen text-indigo-200"></span>
+      <span><strong>注册资本</strong>：1,000 万元人民币</span>
+    </li>
+    <li class="flex items-center gap-2">
+      <span class="i-carbon-license-draft text-fuchsia-200"></span>
+      <span><strong>企业性质</strong>：有限责任公司（自然人投资或控股）</span>
+    </li>
+    <li class="flex items-center gap-2">
+      <span class="i-carbon-location text-cyan-200"></span>
+      <span><strong>所在地</strong>：广东省东莞市长安镇</span>
+    </li>
+    <li class="flex items-center gap-2">
+      <span class="i-carbon-battery-full text-lime-200"></span>
+      <span><strong>所属行业</strong>：新能源及电子制造（电池与储能相关应用）</span>
+    </li>
   </ul>
 
   <p class="px-4">公司简介：东莞山泽新能源科技有限公司专注于电池及新能源相关产品的研发、制造与销售，业务覆盖电池电芯、储能系统、启停电源以及移动电源等多类产品。公司立足东莞制造基地，依托成熟的电芯工艺与新材料技术，面向消费电子、家用及便携储能、汽车启停等多元应用场景，为客户提供稳定可靠的新能源解决方案。</p>
@@ -91,7 +115,7 @@ class: text-left px-14 text-slate-50
 </div>
 
 ---
-class: px-14 py-10 text-slate-50
+class: px-14  text-slate-50
 ---
 
 # 发展历程与股东背景
@@ -125,20 +149,18 @@ class: px-14 py-10 text-slate-50
 </div>
 
 ---
-class: px-14 py-10 text-slate-50
+class: px-14  text-slate-50
 ---
 
 # 业务布局与产品矩阵
 
-## 一张图说明业务版块（四宫格）
-
-<div class="grid grid-cols-2 gap-5 mt-6 max-w-4xl mx-auto">
+<div class="grid grid-cols-2 gap-5 mt-4 max-w-4xl mx-auto">
   <div class="rounded-2xl glass-card border-white/40 p-4">
     <div class="flex items-center justify-between">
       <p class="text-lg font-semibold text-white">电池电芯业务</p>
       <span class="text-xs glass-chip text-sky-900 px-2 py-1 rounded-full border border-white/30 shadow-sm">核心</span>
     </div>
-    <ul class="list-disc pl-5 mt-2.5 space-y-1.5 text-sm leading-relaxed text-slate-100">
+    <ul class="list-disc pl-5 mt-2.5 space-y-1 text-sm leading-relaxed text-slate-100">
       <li>电池制造、电池零配件生产与销售</li>
       <li>面向多种容量与规格定制</li>
     </ul>
@@ -148,7 +170,7 @@ class: px-14 py-10 text-slate-50
       <p class="text-lg font-semibold text-white">储能产品</p>
       <span class="text-xs glass-chip text-indigo-900 px-2 py-1 rounded-full border border-white/30 shadow-sm">储发一体</span>
     </div>
-    <ul class="list-disc pl-5 mt-2.5 space-y-1.5 text-sm leading-relaxed text-slate-100">
+    <ul class="list-disc pl-5 mt-2.5 space-y-1 text-sm leading-relaxed text-slate-100">
       <li>便携储能、电源模组</li>
       <li>结合光伏设备与元器件，实现储发一体解决方案</li>
     </ul>
@@ -158,7 +180,7 @@ class: px-14 py-10 text-slate-50
       <p class="text-lg font-semibold text-white">启停电源</p>
       <span class="text-xs glass-chip text-amber-900 px-2 py-1 rounded-full border border-white/30 shadow-sm">高倍率</span>
     </div>
-    <ul class="list-disc pl-5 mt-2.5 space-y-1.5 text-sm leading-relaxed text-slate-100">
+    <ul class="list-disc pl-5 mt-2.5 space-y-1 text-sm leading-relaxed text-slate-100">
       <li>面向汽车/设备启停场景的电源产品</li>
       <li>高倍率放电、可靠启停性能</li>
     </ul>
@@ -168,19 +190,19 @@ class: px-14 py-10 text-slate-50
       <p class="text-lg font-semibold text-white">移动电源成品</p>
       <span class="text-xs glass-chip text-emerald-900 px-2 py-1 rounded-full border border-white/30 shadow-sm">消费终端</span>
     </div>
-    <ul class="list-disc pl-5 mt-2.5 space-y-1.5 text-sm leading-relaxed text-slate-100">
+    <ul class="list-disc pl-5 mt-2.5 space-y-1 text-sm leading-relaxed text-slate-100">
       <li>半固态电池磁吸移动电源</li>
       <li>快充、安全、轻薄，服务消费电子终端</li>
     </ul>
   </div>
 </div>
 
-<div class="mt-8 text-sm leading-relaxed glass-plain rounded-xl p-4 text-slate-50 border-white/40">
+<div class="mt-4 text-sm leading-relaxed glass-plain rounded-xl px-4 py-2 text-slate-50 border-white/40">
   <strong>总结：</strong>山泽能源以电芯为核心，向储能、启停、移动电源等多产品形态延伸，能够根据客户场景需求，提供从零部件到整机的多层级产品与解决方案。
 </div>
 
 ---
-class: px-14 py-10 text-slate-50
+class: px-14  text-slate-50
 ---
 
 # 核心技术与研发实力
@@ -214,7 +236,7 @@ class: px-14 py-10 text-slate-50
 </div>
 
 ---
-class: px-14 py-10 text-slate-50
+class: px-14  text-slate-50
 ---
 
 # 制造能力与质量管理
@@ -243,7 +265,7 @@ class: px-14 py-10 text-slate-50
 </div>
 
 ---
-class: px-14 py-10 text-slate-50
+class: px-14  text-slate-50
 ---
 
 # 资质认证与合规保障
@@ -276,424 +298,147 @@ class: px-14 py-10 text-slate-50
 </div>
 
 ---
-class: px-20
+class: px-14  text-slate-50
 ---
 
-# Themes
+# 典型应用与合作方向
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
+<section class="space-y-4">
+  <div class="grid grid-cols-2 gap-4 text-sm leading-relaxed">
+    <div class="glass-card rounded-2xl border-white/40 p-4 space-y-2">
+      <p class="font-semibold text-white flex items-center gap-2">
+        <span class="i-carbon-mobile text-amber-200"></span>
+        <span>消费电子领域</span>
+      </p>
+      <p class="text-slate-100">搭载半固态电池及磁吸移动电源，为手机、平板等终端提供安全便捷的随身电力。</p>
+    </div>
+    <div class="glass-card rounded-2xl border-white/40 p-4 space-y-2">
+      <p class="font-semibold text-white flex items-center gap-2">
+        <span class="i-carbon-solar-panel text-emerald-200"></span>
+        <span>家用与便携储能</span>
+      </p>
+      <p class="text-slate-100">小型储能电源与光伏设备配套，为家庭应急、户外露营等场景提供稳定电力支持。</p>
+    </div>
+    <div class="glass-card rounded-2xl border-white/40 p-4 space-y-2">
+      <p class="font-semibold text-white flex items-center gap-2">
+        <span class="i-carbon-car-front text-indigo-200"></span>
+        <span>汽车与设备启停</span>
+      </p>
+      <p class="text-slate-100">启停电源应用于车辆启停、电源应急启动等场景，对可靠性和瞬间输出能力要求高。</p>
+    </div>
+    <div class="glass-card rounded-2xl border-white/40 p-4 space-y-2">
+      <p class="font-semibold text-white flex items-center gap-2">
+        <span class="i-carbon-ibm-watsonx-code-assistant text-sky-200"></span>
+        <span>定制化能源解决方案</span>
+      </p>
+      <p class="text-slate-100">为品牌客户及项目客户提供从电芯选型、结构设计到整机交付的一体化合作模式。</p>
+    </div>
   </div>
 
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
+  <div class="glass-plain border border-white/40 rounded-xl p-4 text-sm text-slate-100">
+    <strong class="text-white">结论：</strong>无论是标准化产品，还是项目型、定制化合作，山泽能源都能够结合客户需求提供匹配的电源与储能解决方案。
   </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
+</section>
 
 ---
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-
-$$
-{1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
+class: px-14  text-slate-50
 ---
 
-# Diagrams
+# 合作模式与服务优势
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from "vue";
-import { emptyArray } from "./external";
-
-const arr = ref(emptyArray(10));
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from "vue";
-import { emptyArray, sayHello } from "./external";
-
-sayHello();
-console.log(`vue ${version}`);
-console.log(
-  emptyArray<number>(10).reduce(
-    (fib) => [...fib, fib.at(-1)! + fib.at(-2)!],
-    [1, 1],
-  ),
-);
-```
-
----
-layout: center
-class: text-center
----
-
-# Learn More
-
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
-
-<PoweredBySlidev mt-10 />
-
----
-layout: center
-class: text-center
----
-
-<img src="/pics/山泽2.png" class="w-1/3 mx-auto"></img>
-
-# 山泽新能源科技有限公司
-
----
-class: px-14 py-10 text-slate-50
----
-
-# 发展历程
-
-<div class="grid grid-cols-2 gap-8 h-full items-start px-4">
-  <!-- 左侧：时间轴 -->
-  <div class="glass-card text-left rounded-2xl p-6 border-white/40 shadow-xl space-y-4">
-    <div class="flex items-center space-x-4">
-      <div>
-        <p class="text-xl font-semibold text-sky-50">2022</p>
-        <p class="text-lg">成立山泽新能源科技</p>
+<section class="space-y-4">
+  <div class="grid grid-cols-2 gap-5">
+    <div class="rounded-2xl border-white/40 px-4 space-y-2">
+      <div class="glass-plain rounded-xl border-white/30 px-3 ">
+        <p class="font-semibold text-amber-100">OEM / 代工生产</p>
+        <p class="text-sm  text-slate-100">按客户设计图纸与标准进行生产制造</p>
+      </div>
+      <div class="glass-plain rounded-xl border-white/30 px-3 ">
+        <p class="font-semibold text-sky-100">ODM / 联合开发</p>
+        <p class="text-sm  text-slate-100">基于山泽的电芯与电源方案，为客户定制外观、功能和性能配置</p>
+      </div>
+      <div class="glass-plain rounded-xl border-white/30 px-3 ">
+        <p class="font-semibold text-emerald-100">技术合作与方案输出</p>
+        <p class="text-sm  text-slate-100">提供电池选型、系统设计、测试验证等技术服务</p>
       </div>
     </div>
-    <div class="flex items-center space-x-4">
-      <div>
-        <p class="text-xl font-semibold text-sky-50">2023</p>
-        <p class="text-lg">建成长安智能工厂</p></div>
-      </div>
-    <div class="flex items-center space-x-4">
-      <div>
-        <p class="text-xl font-semibold text-sky-50">2024</p>
-        <p class="text-lg">服务客户破千</p>
-      </div>
+    <div class="glass-card rounded-2xl border-white/40 px-4 pb-4 space-y-2">
+      <p class="text-lg font-semibold text-white">服务优势</p>
+      <ul class="list-disc pl-5 space-y-1.5 text-sm  text-slate-100">
+        <li>源自电芯的技术理解，能够从底层优化产品方案</li>
+        <li>多品类能力，便于客户统一采购与平台化开发</li>
+        <li>小批试制 + 大批量量产能力，适合从新品导入到成熟放量的全阶段合作</li>
+        <li>位于东莞，产业链配套完善、响应迅速</li>
+      </ul>
     </div>
-    <div class="flex items-center space-x-4">
-      <div>
-        <p class="text-xl font-semibold text-sky-50">2025</p>
-        <p class="text-lg">团队 500+ 人</p>
-      </div>
-    </div>    
   </div>
 
-  <!-- 右侧：4个关键数字 + 小地图 -->
-  <div class="space-y-8 glass-card rounded-2xl p-6 border-white/40 shadow-xl">
-    <!-- 4个圆形指标 -->
-    <div class="grid grid-cols-2 gap-y-6 gap-x-12">
-        <div class="w-44 h-44 rounded-full glass-card flex flex-col items-center justify-center border-white/40">
-          <div class="text-4xl font-bold text-white">1000万</div>
-          <div class="text-sm text-slate-100">注册资本</div>
-        </div>
-        <div class="w-44 h-44 rounded-full glass-card flex flex-col items-center justify-center border-white/40">
-          <div class="text-4xl font-bold text-white">7人</div>
-          <div class="text-sm text-slate-100">核心团队</div>
-        </div>
-        <div class="w-44 h-44 rounded-full glass-card flex flex-col items-center justify-center border-white/40">
-          <div class="text-3xl font-bold text-white">电池+产品</div>
-          <div class="text-sm text-slate-100">全链条制造</div>
-        </div>
-        <div class="w-44 h-44 rounded-full glass-card flex flex-col items-center justify-center border-white/40">
-          <div class="text-4xl font-bold text-white">东莞</div>
-          <div class="text-sm text-slate-100">总部</div>
-        </div>
+  <div class="glass-plain rounded-xl border-white/40 p-4 text-sm text-slate-100">
+    <strong class="text-white">结论：</strong>以电芯与系统双重能力为底座，山泽可灵活匹配 OEM / ODM / 技术合作等模式，交付快速、品质稳定。
+  </div>
+</section>
+
+---
+class: px-14 py-12 text-slate-50
+---
+
+<section class="space-y-6">
+  <h1 class="text-3xl font-bold text-white flex items-center gap-3">
+    <span class="i-carbon-renew text-sky-200"></span>
+    <span>未来规划与发展方向</span>
+  </h1>
+
+  <div class="grid grid-cols-2 gap-5">
+    <div class="glass-card rounded-2xl border-white/40 p-5 space-y-2 text-sm leading-relaxed text-slate-100">
+      <p class="text-lg font-semibold text-white">战略方向</p>
+      <p>从传统电池制造企业，升级为“多场景能源解决方案提供商”</p>
+      <p class="text-lg font-semibold text-white pt-2">技术方向</p>
+      <p>持续加大对半固态电池、新材料及高安全性电源产品的研发投入</p>
+    </div>
+    <div class="glass-card rounded-2xl border-white/40 p-5 space-y-2 text-sm leading-relaxed text-slate-100">
+      <p class="text-lg font-semibold text-white">产品方向</p>
+      <p>深耕储能、启停及移动电源等方向，形成系列化、平台化产品矩阵</p>
+      <p class="text-lg font-semibold text-white pt-2">合作方向</p>
+      <p>与上下游合作伙伴共同打造更完善的新能源生态，为终端客户提供更安全、更高效的电源产品</p>
+    </div>
+  </div>
+
+  <div class="glass-plain rounded-xl border-white/40 p-4 text-sm text-slate-100">
+    <strong class="text-white">总结：</strong>山泽能源期待与更多合作伙伴携手，在新能源变革的浪潮中，共同打造具有长期竞争力的产品与解决方案。
+  </div>
+</section>
+
+---
+class: px-14 py-12 text-slate-50
+---
+
+# 联系我们
+
+<div class="grid grid-cols-2 gap-6 items-stretch">
+  <div class="glass-card rounded-2xl border-white/40 p-6 space-y-3 text-sm text-slate-100">
+    <p class="text-2xl font-bold text-white mb-2">东莞山泽新能源科技有限公司</p>
+    <div class="space-y-1.5">
+      <p><strong class="text-white">地址：</strong>广东省东莞市长安镇上沙中南中路 84 号 22 号楼 201 房</p>
+      <p><strong class="text-white">电话：</strong>400 804 2015</p>
+      <p><strong class="text-white">邮箱：</strong>info@shanzesz.com</p>
+    </div>
+    <div class="glass-plain rounded-xl border-white/30 p-3 text-xs leading-relaxed">
+      山泽能源期待与更多合作伙伴携手，在新能源变革的浪潮中，共同打造具有长期竞争力的产品与解决方案。
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-3">
+    <div class="glass-card rounded-2xl s border-white/40 p-3 flex flex-col items-center justify-center text-center text-xl text-slate-100">
+      <p class="text-white font-bold "><a href="https://shanzesz.com" target="_blank" rel="noopener noreferrer">山泽官网</a></p>
+      <img src="/pics/shanzesz.com.png"  />
+    </div>
+    <div class="glass-card rounded-2xl  border-white/40 p-3 flex flex-col items-center justify-center text-center text-xl text-slate-100">
+      <p class="text-white font-bold ">企业微信</p>
+      <p>可放置真实场景照片增强信任</p>
+    </div>
+    <div class="col-span-2 glass-plain rounded-2xl border-white/30 p-4 text-xs leading-relaxed text-slate-100 grid place-content-center">
+      欢迎随时通过电话或邮件联系预约交流，支持到厂参观与项目技术沟通。
     </div>
   </div>
 </div>
 
----
-class: px-10 py-10 text-slate-50
----
-
-# 总部位置
-
-<div class="glass-card rounded-3xl p-4 border-white/40 shadow-2xl max-w-6xl mx-auto">
-  <iframe class="w-full rounded-2xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.8007667243496!2d113.74241607605255!3d22.77277392560265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403bdec6d798e31%3A0x2c3a1ff4f5846206!2z5Y2a5Lia5bel5Lia5Zut!5e0!3m2!1szh-CN!2sjp!4v1762858420061!5m2!1szh-CN!2sjp" width="900" height="425" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
----
-
-# 发展历程
