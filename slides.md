@@ -409,7 +409,7 @@ class: px-14 py-12 text-slate-50
 </section>
 
 ---
-class: px-14 py-12 text-slate-50
+class: px-14 py-12  text-slate-50
 ---
 
 # 联系我们
@@ -428,17 +428,12 @@ class: px-14 py-12 text-slate-50
   </div>
 
   <div class="grid grid-cols-2 gap-3">
-    <div class="glass-card rounded-2xl s border-white/40 p-3 flex flex-col items-center justify-center text-center text-xl text-slate-100">
+    <div class="  glass-card rounded-2xl  border-white/40  items-center justify-center text-center text-xl text-slate-100">
       <p class="text-white font-bold "><a href="https://shanzesz.com" target="_blank" rel="noopener noreferrer">山泽官网</a></p>
       <img src="/pics/shanzesz.com.png"  />
     </div>
-    <div class="glass-card rounded-2xl  border-white/40 p-3 flex flex-col items-center justify-center text-center text-xl text-slate-100">
-      <p class="text-white font-bold ">企业微信</p>
-      <p>可放置真实场景照片增强信任</p>
-    </div>
-    <div class="col-span-2 glass-plain rounded-2xl border-white/30 p-4 text-xs leading-relaxed text-slate-100 grid place-content-center">
+    <div class=" glass-plain rounded-2xl border-white/30 p-4 text-xs leading-relaxed text-slate-100 grid place-content-center">
       欢迎随时通过电话或邮件联系预约交流，支持到厂参观与项目技术沟通。
     </div>
   </div>
 </div>
-
