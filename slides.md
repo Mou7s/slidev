@@ -59,19 +59,23 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# 目录
+# 目录 目录目录
 
-<div class="max-w-6xl mx-auto">
-  <Toc
-    class="grid grid-cols-5 gap-3 text-sm leading-relaxed list-none pl-0 [&>li]:rounded-2xl [&>li]:border [&>li]:border-white/30 [&>li]:bg-white/5 [&>li]:backdrop-blur [&>li]:px-3 [&>li]:py-3 [&>li]:shadow-lg [&>li_a]:font-semibold [&>li_a]:text-white [&>li>ul]:mt-2 [&>li>ul]:list-disc [&>li>ul]:pl-5 [&>li>ul]:space-y-1 [&>li>ul_a]:text-slate-100"
-    minDepth="1"
-    maxDepth="2"
-  />
+<div class="grid cols-2  gap-6  max-w-7xl mx-auto px-2"> 
+<h1>目录</h1>
+  <div class=" rounded-3xl border-white/40 p-4 shadow-xl">
+    <Toc
+      minDepth="1"
+      maxDepth="2"
+    />
+  </div>
 </div>
 
 ---
 class: text-left px-14 text-slate-50
 ---
+
+# 公司概况 {class="sr-only"}
 
 <h1 class="flex items-center gap-3 text-white mb-4">
   <span class="i-carbon-enterprise text-3xl text-sky-200 align-middle"></span>
