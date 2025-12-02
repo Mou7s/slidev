@@ -115,7 +115,7 @@ class: px-14  text-slate-50
 
 # 发展历程与股东背景
 
-<div class="grid grid-cols-2 gap-6 text-sm">
+<div class="grid grid-cols-2 gap-6 text-sm items-stretch">
   <div class="glass-card rounded-2xl px-4 py-2 border-white/40 shadow-xl">
     <p class="text-lg font-semibold text-sky-50 mb-2">发展历程</p>
     <ul class="list-disc pl-5 space-y-1 ">
@@ -125,8 +125,8 @@ class: px-14  text-slate-50
       <li>2024 起 加大在半固态电池、便携储能和磁吸移动电源等方向的研发投入，推动产品升级与业务转型</li>
     </ul>
   </div>
-  <div class="glass-card rounded-2xl px-4 py-2 border-white/40 shadow-xl">
-    <img src="/pics/lab.png">
+  <div class="glass-card rounded-2xl px-4 py-2 border-white/40 shadow-xl flex items-center justify-center">
+    <img src="/pics/lab.png" alt="实验室/产线照片" class="max-h-56 object-contain drop-shadow-lg">
   </div>
 </div>
 
