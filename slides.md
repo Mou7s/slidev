@@ -75,7 +75,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 class: text-left px-14 text-slate-50
 ---
 
-# 公司概况 
+# 公司概况
 
 <div class="glass-card rounded-2xl px-4 py-2 border-white/40 shadow-xl flex flex-col">
   <ul class="space-y-2">
@@ -126,16 +126,7 @@ class: px-14  text-slate-50
     </ul>
   </div>
   <div class="glass-card rounded-2xl px-4 py-2 border-white/40 shadow-xl">
-    <p class="text-lg font-semibold text-emerald-50 mb-2">股东结构亮点</p>
-    <ul class="list-disc pl-5 space-y-1 ">
-      <li>实控人及大股东：张烈先生，持股比例 75%，兼任执行董事、经理及财务负责人</li>
-      <li>战略股东：
-        <ul class="list-disc pl-5 space-y-1">
-          <li>山东山泽新能源科技有限公司（持股 10%）</li>
-          <li>赣州市沃能新能源有限公司（持股 10%）</li>
-        </ul>
-      </li>
-    </ul>
+    <img src="/pics/lab.png">
   </div>
 </div>
 
