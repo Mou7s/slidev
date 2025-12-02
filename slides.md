@@ -61,8 +61,12 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # 目录
 
-<div class="glass-card rounded-3xl border-white/50 p-8 shadow-2xl w-full max-w-5xl backdrop-blur-xl">
-  <Toc class="toc-columns-2 text-base leading-relaxed space-y-2" minDepth="1" maxDepth="2" />
+<div class="max-w-6xl mx-auto">
+  <Toc
+    class="grid grid-cols-5 gap-3 text-sm leading-relaxed list-none pl-0 [&>li]:rounded-2xl [&>li]:border [&>li]:border-white/30 [&>li]:bg-white/5 [&>li]:backdrop-blur [&>li]:px-3 [&>li]:py-3 [&>li]:shadow-lg [&>li_a]:font-semibold [&>li_a]:text-white [&>li>ul]:mt-2 [&>li>ul]:list-disc [&>li>ul]:pl-5 [&>li>ul]:space-y-1 [&>li>ul_a]:text-slate-100"
+    minDepth="1"
+    maxDepth="2"
+  />
 </div>
 
 ---
