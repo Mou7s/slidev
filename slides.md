@@ -78,14 +78,10 @@ class: text-left px-14 text-slate-50
 # 公司概况 
 
 <div class="glass-card rounded-2xl px-4 py-2 border-white/40 shadow-xl flex flex-col">
-  <ul class="space-y-1">
+  <ul class="space-y-2">
     <li class="flex items-center gap-2">
       <span class="i-carbon-building text-sky-200"></span>
       <span><strong>公司名称</strong>：东莞山泽新能源科技有限公司</span>
-    </li>
-    <li class="flex items-center gap-2">
-      <span class="i-carbon-badge text-amber-200"></span>
-      <span><strong>品牌/简称</strong>：山泽能源</span>
     </li>
     <li class="flex items-center gap-2">
       <span class="i-carbon-calendar text-emerald-200"></span>
@@ -109,12 +105,8 @@ class: text-left px-14 text-slate-50
     </li>
   </ul>
 
-  <p class="px-4">公司简介：东莞山泽新能源科技有限公司专注于电池及新能源相关产品的研发、制造与销售，业务覆盖电池电芯、储能系统、启停电源以及移动电源等多类产品。公司立足东莞制造基地，依托成熟的电芯工艺与新材料技术，面向消费电子、家用及便携储能、汽车启停等多元应用场景，为客户提供稳定可靠的新能源解决方案。</p>
+  <p class="p-4">公司简介：东莞山泽新能源科技有限公司专注于电池及新能源相关产品的研发、制造与销售，业务覆盖电池电芯、储能系统、启停电源以及移动电源等多类产品。公司立足东莞制造基地，依托成熟的电芯工艺与新材料技术，面向消费电子、家用及便携储能、汽车启停等多元应用场景，为客户提供稳定可靠的新能源解决方案。</p>
 
-  <div class="text-sm glass-plain inline-block px-3 py-2 rounded-xl border-white/40 text-slate-50 self-end text-right">
-    参保人数：7 人（精干团队，灵活高效）<br>
-    经营状态：开业（持续经营中）
-  </div>
 </div>
 
 ---
